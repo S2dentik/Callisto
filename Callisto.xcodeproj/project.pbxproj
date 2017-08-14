@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		E602B03C7FB8224975D357AF /* Pods_Callisto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E90273034D76250C07736C3 /* Pods_Callisto.framework */; };
+		FF06AF611F4269B7007AC494 /* Callisto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF06AF4D1F42664A007AC494 /* Callisto.swift */; };
+		FF06AF621F4269B7007AC494 /* CGSizeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF06AF4E1F42664A007AC494 /* CGSizeExtensions.swift */; };
+		FF06AF631F4269B7007AC494 /* DictionaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF06AF4F1F42664A007AC494 /* DictionaryExtensions.swift */; };
+		FF06AF641F4269B7007AC494 /* Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF06AF501F42664A007AC494 /* Ext.swift */; };
+		FF06AF651F4269B7007AC494 /* Master.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF06AF511F42664A007AC494 /* Master.swift */; };
+		FF06AF661F4269B7007AC494 /* Parameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF06AF521F42664A007AC494 /* Parameter.swift */; };
+		FF06AF671F4269B7007AC494 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF06AF531F42664A007AC494 /* Stream.swift */; };
+		FF06AF681F4269B7007AC494 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF06AF541F42664A007AC494 /* StringExtensions.swift */; };
+		FF06AF691F4269B7007AC494 /* StreamInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF06AF551F42686D007AC494 /* StreamInfo.swift */; };
+		FF06AF6A1F4269B7007AC494 /* StreamKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF06AF571F426905007AC494 /* StreamKey.swift */; };
 		FFB4F3DE1F42552E0053087C /* Callisto.h in Headers */ = {isa = PBXBuildFile; fileRef = FFB4F3DC1F42552E0053087C /* Callisto.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -15,6 +25,16 @@
 		2D87627A10DDA590223F44B1 /* Pods-Callisto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Callisto.release.xcconfig"; path = "Pods/Target Support Files/Pods-Callisto/Pods-Callisto.release.xcconfig"; sourceTree = "<group>"; };
 		5E90273034D76250C07736C3 /* Pods_Callisto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Callisto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D774A184231E9CCCF3327283 /* Pods-Callisto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Callisto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Callisto/Pods-Callisto.debug.xcconfig"; sourceTree = "<group>"; };
+		FF06AF4D1F42664A007AC494 /* Callisto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Callisto.swift; sourceTree = "<group>"; };
+		FF06AF4E1F42664A007AC494 /* CGSizeExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGSizeExtensions.swift; sourceTree = "<group>"; };
+		FF06AF4F1F42664A007AC494 /* DictionaryExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryExtensions.swift; sourceTree = "<group>"; };
+		FF06AF501F42664A007AC494 /* Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ext.swift; sourceTree = "<group>"; };
+		FF06AF511F42664A007AC494 /* Master.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Master.swift; sourceTree = "<group>"; };
+		FF06AF521F42664A007AC494 /* Parameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameter.swift; sourceTree = "<group>"; };
+		FF06AF531F42664A007AC494 /* Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stream.swift; sourceTree = "<group>"; };
+		FF06AF541F42664A007AC494 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		FF06AF551F42686D007AC494 /* StreamInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamInfo.swift; sourceTree = "<group>"; };
+		FF06AF571F426905007AC494 /* StreamKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamKey.swift; sourceTree = "<group>"; };
 		FFB4F3D91F42552E0053087C /* Callisto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Callisto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB4F3DC1F42552E0053087C /* Callisto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Callisto.h; sourceTree = "<group>"; };
 		FFB4F3DD1F42552E0053087C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,9 +69,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FF06AF4C1F42664A007AC494 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FF06AF4D1F42664A007AC494 /* Callisto.swift */,
+				FF06AF4E1F42664A007AC494 /* CGSizeExtensions.swift */,
+				FF06AF4F1F42664A007AC494 /* DictionaryExtensions.swift */,
+				FF06AF501F42664A007AC494 /* Ext.swift */,
+				FF06AF511F42664A007AC494 /* Master.swift */,
+				FF06AF521F42664A007AC494 /* Parameter.swift */,
+				FF06AF531F42664A007AC494 /* Stream.swift */,
+				FF06AF541F42664A007AC494 /* StringExtensions.swift */,
+				FF06AF551F42686D007AC494 /* StreamInfo.swift */,
+				FF06AF571F426905007AC494 /* StreamKey.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		FFB4F3CF1F42552E0053087C = {
 			isa = PBXGroup;
 			children = (
+				FF06AF4C1F42664A007AC494 /* Classes */,
 				FFB4F3DB1F42552E0053087C /* Callisto */,
 				FFB4F3DA1F42552E0053087C /* Products */,
 				02844EDAEFF1955902B7A1BD /* Pods */,
@@ -193,6 +231,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF06AF681F4269B7007AC494 /* StringExtensions.swift in Sources */,
+				FF06AF651F4269B7007AC494 /* Master.swift in Sources */,
+				FF06AF621F4269B7007AC494 /* CGSizeExtensions.swift in Sources */,
+				FF06AF641F4269B7007AC494 /* Ext.swift in Sources */,
+				FF06AF661F4269B7007AC494 /* Parameter.swift in Sources */,
+				FF06AF6A1F4269B7007AC494 /* StreamKey.swift in Sources */,
+				FF06AF611F4269B7007AC494 /* Callisto.swift in Sources */,
+				FF06AF691F4269B7007AC494 /* StreamInfo.swift in Sources */,
+				FF06AF631F4269B7007AC494 /* DictionaryExtensions.swift in Sources */,
+				FF06AF671F4269B7007AC494 /* Stream.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
